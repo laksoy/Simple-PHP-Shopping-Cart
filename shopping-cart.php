@@ -6,7 +6,7 @@ session_start();
 $total=0;
 
 //Database connection, replace with your connection string.. Used PDO
-$conn = new PDO("mysql:host=10.130.2.192;dbname=tutsplanet", 'root', 'root');		
+$conn = new PDO("mysql:host=172.30.228.116;dbname=tutsplanet", 'root', 'root');		
 $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
 
